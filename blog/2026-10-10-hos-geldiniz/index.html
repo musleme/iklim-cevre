@@ -71,6 +71,14 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<meta property="og:title" content="İklim ve Çevre Grubu’nun blogu açıldı – İklim ve Çevre Grubu">
+<meta property="og:description" content="Bu sayfada çalışmalarımızdan haberler, makalelerimizin kısa özetleri ve yöntem notları paylaşacağız.">
+<meta property="og:image" content="https://musleme.github.io/iklim-cevre/img/logo.svg">
+<meta property="og:site_name" content="İklim ve Çevre Grubu">
+<meta name="twitter:title" content="İklim ve Çevre Grubu’nun blogu açıldı – İklim ve Çevre Grubu">
+<meta name="twitter:description" content="Bu sayfada çalışmalarımızdan haberler, makalelerimizin kısa özetleri ve yöntem notları paylaşacağız.">
+<meta name="twitter:image" content="https://musleme.github.io/iklim-cevre/img/logo.svg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -289,7 +297,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/musleme\.github\.io\/iklim-cevre\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

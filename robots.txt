@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://musleme.github.io/iklim-cevre/sitemap.xml
+Sitemap: https://musleme.github.io/iklim-cevre/en/sitemap.xml
